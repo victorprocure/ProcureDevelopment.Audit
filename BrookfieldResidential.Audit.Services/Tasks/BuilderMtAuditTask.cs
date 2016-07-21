@@ -1,10 +1,10 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="BuilderMtAuditTask.cs" company="Brookfield Residential Properties">
-//     Copyright (c) Brookfield Residential Properties. All rights reserved.
+// <copyright file="BuilderMtAuditTask.cs" company="Procure Development">
+//     Copyright (c) Procure Development. All rights reserved.
 // </copyright>
 // <author>Victor Procure</author>
 //-----------------------------------------------------------------------
-namespace BrookfieldResidentialProperties.Audit.Services.Tasks
+namespace ProcureDevelopment.Audit.Services.Tasks
 {
     using System;
     using System.ComponentModel;
@@ -15,7 +15,7 @@ namespace BrookfieldResidentialProperties.Audit.Services.Tasks
     /// <summary>
     ///     The BuilderMt Audit Task
     /// </summary>
-    /// <seealso cref="BrookfieldResidentialProperties.Audit.Services.Tasks.IAuditTask" />
+    /// <seealso cref="ProcureDevelopment.Audit.Services.Tasks.IAuditTask" />
     public class BuilderMtAuditTask : IAuditTask
     {
         /// <summary>

@@ -1,11 +1,11 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="ConfigurationViewModel.cs" company="Brookfield Residential Properties">
-//     Copyright (c) Brookfield Residential Properties. All rights reserved.
+// <copyright file="ConfigurationViewModel.cs" company="Procure Development">
+//     Copyright (c) Procure Development. All rights reserved.
 // </copyright>
 // <author>Victor Procure</author>
 //-----------------------------------------------------------------------
 
-namespace BrookfieldResidentialProperties.Audit.Wpf.ViewModels
+namespace ProcureDevelopment.Audit.Wpf.ViewModels
 {
     using System;
     using System.Collections.Generic;
@@ -18,7 +18,7 @@ namespace BrookfieldResidentialProperties.Audit.Wpf.ViewModels
     /// <summary>
     ///     Handles the audit configuration
     /// </summary>
-    /// <seealso cref="BrookfieldResidentialProperties.Audit.Wpf.ViewModels.ViewModelBase" />
+    /// <seealso cref="ProcureDevelopment.Audit.Wpf.ViewModels.ViewModelBase" />
     internal class ConfigurationViewModel : ViewModelBase
     {
         /// <summary>

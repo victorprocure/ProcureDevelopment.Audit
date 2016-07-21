@@ -1,17 +1,17 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="SageConnectionValidator.cs" company="Brookfield Residential Properties">
-//     Copyright (c) Brookfield Residential Properties. All rights reserved.
+// <copyright file="SageConnectionValidator.cs" company="Procure Development">
+//     Copyright (c) Procure Development. All rights reserved.
 // </copyright>
 // <author>Victor Procure</author>
 //-----------------------------------------------------------------------
-namespace BrookfieldResidentialProperties.Audit.Services.Validation
+namespace ProcureDevelopment.Audit.Services.Validation
 {
     using System.Windows.Controls;
 
     /// <summary>
     ///     Validates the sage 300 connection
     /// </summary>
-    /// <seealso cref="BrookfieldResidentialProperties.Audit.Services.Validation.ConnectionValidator" />
+    /// <seealso cref="ProcureDevelopment.Audit.Services.Validation.ConnectionValidator" />
     internal class SageConnectionValidator : ConnectionValidator
     {
         /// <summary>

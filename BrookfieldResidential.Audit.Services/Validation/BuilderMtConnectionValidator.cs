@@ -1,17 +1,17 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="BuilderMtConnectionValidator.cs" company="Brookfield Residential Properties">
-//     Copyright (c) Brookfield Residential Properties. All rights reserved.
+// <copyright file="BuilderMtConnectionValidator.cs" company="Procure Development">
+//     Copyright (c) Procure Development. All rights reserved.
 // </copyright>
 // <author>Victor Procure</author>
 //-----------------------------------------------------------------------
-namespace BrookfieldResidentialProperties.Audit.Services.Validation
+namespace ProcureDevelopment.Audit.Services.Validation
 {
     using System.Windows.Controls;
 
     /// <summary>
     ///     Validates a BuilderMT connection is correctly setup
     /// </summary>
-    /// <seealso cref="BrookfieldResidentialProperties.Audit.Services.Validation.ConnectionValidator" />
+    /// <seealso cref="ProcureDevelopment.Audit.Services.Validation.ConnectionValidator" />
     internal class BuilderMtConnectionValidator : ConnectionValidator
     {
         /// <summary>

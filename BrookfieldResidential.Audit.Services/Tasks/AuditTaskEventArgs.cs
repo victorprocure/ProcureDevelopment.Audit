@@ -1,10 +1,10 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="AuditTaskEventArgs.cs" company="Brookfield Residential Properties">
-//     Copyright (c) Brookfield Residential Properties. All rights reserved.
+// <copyright file="AuditTaskEventArgs.cs" company="Procure Development">
+//     Copyright (c) Procure Development. All rights reserved.
 // </copyright>
 // <author>Victor Procure</author>
 //-----------------------------------------------------------------------
-namespace BrookfieldResidentialProperties.Audit.Services.Tasks
+namespace ProcureDevelopment.Audit.Services.Tasks
 {
     using System;
 

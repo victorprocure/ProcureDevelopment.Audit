@@ -5,11 +5,11 @@ using System.Windows;
 
 // General Information about an assembly is controlled through the following set of attributes.
 // Change these attribute values to modify the information associated with an assembly.
-[assembly: AssemblyTitle("BrookfieldResidentialProperties.Audit.Wpf")]
+[assembly: AssemblyTitle("ProcureDevelopment.Audit.Wpf")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Brookfield Residential")]
-[assembly: AssemblyProduct("BrookfieldResidentialProperties.Audit")]
+[assembly: AssemblyCompany("Procure Development")]
+[assembly: AssemblyProduct("ProcureDevelopment.Audit")]
 [assembly: AssemblyCopyright("Copyright © 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

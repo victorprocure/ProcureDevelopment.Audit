@@ -1,10 +1,10 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="BuilderMtConnection.cs" company="Brookfield Residential Properties">
-//     Copyright (c) Brookfield Residential Properties. All rights reserved.
+// <copyright file="BuilderMtConnection.cs" company="Procure Development">
+//     Copyright (c) Procure Development. All rights reserved.
 // </copyright>
 // <author>Victor Procure</author>
 //-----------------------------------------------------------------------
-namespace BrookfieldResidentialProperties.Audit.Services.Connections
+namespace ProcureDevelopment.Audit.Services.Connections
 {
     using System.Globalization;
     using System.Security;
@@ -14,7 +14,7 @@ namespace BrookfieldResidentialProperties.Audit.Services.Connections
     /// <summary>
     ///     The default BuilderMt connection for audit
     /// </summary>
-    /// <seealso cref="BrookfieldResidentialProperties.Audit.Services.Connections.Connection" />
+    /// <seealso cref="ProcureDevelopment.Audit.Services.Connections.Connection" />
     public class BuilderMtConnection : Connection
     {
         /// <summary>

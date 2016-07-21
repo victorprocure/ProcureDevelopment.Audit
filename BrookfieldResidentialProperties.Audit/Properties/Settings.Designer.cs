@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BrookfieldResidentialProperties.Audit.Wpf.Properties {
+namespace ProcureDevelopment.Audit.Wpf.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

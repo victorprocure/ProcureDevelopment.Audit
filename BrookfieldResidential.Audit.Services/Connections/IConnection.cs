@@ -1,11 +1,11 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="IConnection.cs" company="Brookfield Residential Properties">
-//     Copyright (c) Brookfield Residential Properties. All rights reserved.
+// <copyright file="IConnection.cs" company="Procure Development">
+//     Copyright (c) Procure Development. All rights reserved.
 // </copyright>
 // <author>Victor Procure</author>
 //-----------------------------------------------------------------------
 
-namespace BrookfieldResidentialProperties.Audit.Services.Connections
+namespace ProcureDevelopment.Audit.Services.Connections
 {
     using System.Security;
     using System.Windows.Controls;

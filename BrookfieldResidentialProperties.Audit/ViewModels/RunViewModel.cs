@@ -1,10 +1,10 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="RunViewModel.cs" company="Brookfield Residential Properties">
-//     Copyright (c) Brookfield Residential Properties. All rights reserved.
+// <copyright file="RunViewModel.cs" company="Procure Development">
+//     Copyright (c) Procure Development. All rights reserved.
 // </copyright>
 // <author>Victor Procure</author>
 //-----------------------------------------------------------------------
-namespace BrookfieldResidentialProperties.Audit.Wpf.ViewModels
+namespace ProcureDevelopment.Audit.Wpf.ViewModels
 {
     using System.Collections.ObjectModel;
     using System.Windows.Input;
@@ -16,7 +16,7 @@ namespace BrookfieldResidentialProperties.Audit.Wpf.ViewModels
     /// <summary>
     ///     Handles user interaction with running the audit
     /// </summary>
-    /// <seealso cref="BrookfieldResidentialProperties.Audit.Wpf.ViewModels.ViewModelBase" />
+    /// <seealso cref="ProcureDevelopment.Audit.Wpf.ViewModels.ViewModelBase" />
     internal class RunViewModel : ViewModelBase
     {
         /// <summary>

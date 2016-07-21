@@ -1,10 +1,10 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="AuditConfiguration.cs" company="Brookfield Residential Properties">
-//     Copyright (c) Brookfield Residential Properties. All rights reserved.
+// <copyright file="AuditConfiguration.cs" company="Procure Development">
+//     Copyright (c) Procure Development. All rights reserved.
 // </copyright>
 // <author>Victor Procure</author>
 //-----------------------------------------------------------------------
-namespace BrookfieldResidentialProperties.Audit.Services.Configurations
+namespace ProcureDevelopment.Audit.Services.Configurations
 {
     using System;
     using System.Globalization;
@@ -14,7 +14,7 @@ namespace BrookfieldResidentialProperties.Audit.Services.Configurations
     /// <summary>
     ///     Default audit configuration information
     /// </summary>
-    /// <seealso cref="BrookfieldResidentialProperties.Audit.Services.Configurations.IAuditConfiguration" />
+    /// <seealso cref="ProcureDevelopment.Audit.Services.Configurations.IAuditConfiguration" />
     public class AuditConfiguration : IAuditConfiguration
     {
         /// <summary>

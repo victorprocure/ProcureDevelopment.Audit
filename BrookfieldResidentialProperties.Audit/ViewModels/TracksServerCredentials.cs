@@ -1,10 +1,10 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="TracksServerCredentials.cs" company="Brookfield Residential Properties">
-//     Copyright (c) Brookfield Residential Properties. All rights reserved.
+// <copyright file="TracksServerCredentials.cs" company="Procure Development">
+//     Copyright (c) Procure Development. All rights reserved.
 // </copyright>
 // <author>Victor Procure</author>
 //-----------------------------------------------------------------------
-namespace BrookfieldResidentialProperties.Audit.Wpf.ViewModels
+namespace ProcureDevelopment.Audit.Wpf.ViewModels
 {
     using System.Security;
     using System.Windows;
@@ -15,7 +15,7 @@ namespace BrookfieldResidentialProperties.Audit.Wpf.ViewModels
     /// <summary>
     ///     Base class for all views that store and process server credentials
     /// </summary>
-    /// <seealso cref="BrookfieldResidentialProperties.Audit.Wpf.ViewModels.ViewModelBase" />
+    /// <seealso cref="ProcureDevelopment.Audit.Wpf.ViewModels.ViewModelBase" />
     internal abstract class TracksServerCredentials : ViewModelBase
     {
         /// <summary>

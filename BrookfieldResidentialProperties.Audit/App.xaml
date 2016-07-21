@@ -1,7 +1,7 @@
-﻿<Application x:Class="BrookfieldResidentialProperties.Audit.Wpf.App"
+﻿<Application x:Class="ProcureDevelopment.Audit.Wpf.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:BrookfieldResidentialProperties.Audit.Wpf"
+             xmlns:local="clr-namespace:ProcureDevelopment.Audit.Wpf"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
     </Application.Resources>

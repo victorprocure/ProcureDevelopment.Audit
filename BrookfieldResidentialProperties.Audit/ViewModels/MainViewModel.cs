@@ -1,10 +1,10 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="MainViewModel.cs" company="Brookfield Residential Properties">
-//     Copyright (c) Brookfield Residential Properties. All rights reserved.
+// <copyright file="MainViewModel.cs" company="Procure Development">
+//     Copyright (c) Procure Development. All rights reserved.
 // </copyright>
 // <author>Victor Procure</author>
 //-----------------------------------------------------------------------
-namespace BrookfieldResidentialProperties.Audit.Wpf.ViewModels
+namespace ProcureDevelopment.Audit.Wpf.ViewModels
 {
     using System.Collections.Generic;
     using System.Linq;
@@ -15,7 +15,7 @@ namespace BrookfieldResidentialProperties.Audit.Wpf.ViewModels
     /// <summary>
     ///     View model for the main application, handles the sub views and view model switching
     /// </summary>
-    /// <seealso cref="BrookfieldResidentialProperties.Audit.Wpf.ViewModels.ViewModelBase" />
+    /// <seealso cref="ProcureDevelopment.Audit.Wpf.ViewModels.ViewModelBase" />
     internal class MainViewModel : ViewModelBase
     {
         /// <summary>
@@ -58,7 +58,7 @@ namespace BrookfieldResidentialProperties.Audit.Wpf.ViewModels
         /// </summary>
         public MainViewModel()
         {
-            this.ViewTitle = "Brookfield Residential Audit";
+            this.ViewTitle = "Procure Development Audit";
 
             this.pastViewModels = new List<ViewModelBase>();
             this.audit = new BrookfieldAudit();

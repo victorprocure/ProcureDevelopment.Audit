@@ -1,10 +1,10 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="SageAuditTask.cs" company="Brookfield Residential Properties">
-//     Copyright (c) Brookfield Residential Properties. All rights reserved.
+// <copyright file="SageAuditTask.cs" company="Procure Development">
+//     Copyright (c) Procure Development. All rights reserved.
 // </copyright>
 // <author>Victor Procure</author>
 //-----------------------------------------------------------------------
-namespace BrookfieldResidentialProperties.Audit.Services.Tasks
+namespace ProcureDevelopment.Audit.Services.Tasks
 {
     using System;
     using System.ComponentModel;
@@ -15,7 +15,7 @@ namespace BrookfieldResidentialProperties.Audit.Services.Tasks
     /// <summary>
     ///     Describes the Sage 300 Audit task
     /// </summary>
-    /// <seealso cref="BrookfieldResidentialProperties.Audit.Services.Tasks.IAuditTask" />
+    /// <seealso cref="ProcureDevelopment.Audit.Services.Tasks.IAuditTask" />
     public class SageAuditTask : IAuditTask
     {
         /// <summary>

@@ -1,10 +1,10 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="BuilderMtViewModel.cs" company="Brookfield Residential Properties">
-//     Copyright (c) Brookfield Residential Properties. All rights reserved.
+// <copyright file="BuilderMtViewModel.cs" company="Procure Development">
+//     Copyright (c) Procure Development. All rights reserved.
 // </copyright>
 // <author>Victor Procure</author>
 //-----------------------------------------------------------------------
-namespace BrookfieldResidentialProperties.Audit.Wpf.ViewModels
+namespace ProcureDevelopment.Audit.Wpf.ViewModels
 {
     using Services;
     using Services.Tasks;
@@ -12,7 +12,7 @@ namespace BrookfieldResidentialProperties.Audit.Wpf.ViewModels
     /// <summary>
     ///     View model for builderMt task setup
     /// </summary>
-    /// <seealso cref="BrookfieldResidentialProperties.Audit.Wpf.ViewModels.TracksServerCredentials" />
+    /// <seealso cref="ProcureDevelopment.Audit.Wpf.ViewModels.TracksServerCredentials" />
     internal class BuilderMtViewModel : TracksServerCredentials
     {
         /// <summary>
