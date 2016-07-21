@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="BrookfieldResidentialProperties.Audit.Wpf.Views.ConfigurationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:BrookfieldResidentialProperties.Audit.Wpf.Views"
+             xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+             xmlns:validation="clr-namespace:BrookfieldResidentialProperties.Audit.Wpf.Validation"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="660">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30*" />
+            <RowDefinition Height="30*" />
+            <RowDefinition Height="30*" />
+            <RowDefinition Height="30*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="130" />
+            <ColumnDefinition Width="400*" />
+            <ColumnDefinition Width="130" />
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Content="Audit Location:" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Center" />
+        <Label Grid.Row="1" Content="Audit Year:" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Center" />
+        <Label Content="Audit Quarter:" Grid.Row="2" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Center" />
+        <TextBox Grid.Row="0" HorizontalAlignment="Stretch" Margin="0" Grid.Column="1" VerticalAlignment="Center" Text="{Binding Location}">
+            <i:Interaction.Behaviors>
+                <validation:TextBoxInputRegExBehaviour RegularExpression="^[a-zA-Z ]+$" MaxLength="30" />
+            </i:Interaction.Behaviors>
+        </TextBox>
+        <TextBox HorizontalAlignment="Stretch" Margin="0" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" Text="{Binding Year}">
+            <i:Interaction.Behaviors>
+                <validation:TextBoxInputRegExBehaviour RegularExpression="^\d+$" MaxLength="4" />
+            </i:Interaction.Behaviors>
+        </TextBox>
+        <ComboBox HorizontalAlignment="Stretch" Margin="0" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" ItemsSource="{Binding Quarters}" SelectedItem="{Binding Quarter}" />
+        <Button Content="Create Templates" Command="{Binding CreateTemplates}" HorizontalAlignment="Center" Grid.Column="2" Grid.Row="3" VerticalAlignment="Center" />
+    </Grid>
+</UserControl>
