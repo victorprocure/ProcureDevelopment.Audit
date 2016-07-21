@@ -1,5 +1,5 @@
 ﻿//-----------------------------------------------------------------------
-// <copyright file="BrookfieldAudit.cs" company="Procure Development">
+// <copyright file="Audit.cs" company="Procure Development">
 //     Copyright (c) Procure Development. All rights reserved.
 // </copyright>
 // <author>Victor Procure</author>
@@ -17,7 +17,7 @@ namespace ProcureDevelopment.Audit.Services
     ///     Houses all audit tasks and configurations, runs all tasks when requested
     /// </summary>
     /// <seealso cref="System.ComponentModel.INotifyPropertyChanged" />
-    public class BrookfieldAudit : INotifyPropertyChanged
+    public class Audit : INotifyPropertyChanged
     {
         /// <summary>
         ///     The audit configuration

@@ -18,13 +18,13 @@ namespace ProcureDevelopment.Audit.Wpf.ViewModels
         /// <summary>
         ///     The audit the task will be added to
         /// </summary>
-        private BrookfieldAudit audit;
+        private Audit audit;
 
         /// <summary>
         ///     Initializes a new instance of the <see cref="BuilderMtViewModel" /> class.
         /// </summary>
         /// <param name="audit">The audit.</param>
-        public BuilderMtViewModel(BrookfieldAudit audit) : base(new BuilderMtAuditTask())
+        public BuilderMtViewModel(Audit audit) : base(new BuilderMtAuditTask())
         {
             this.ViewTitle = "BuilderMT";
             this.audit = audit;

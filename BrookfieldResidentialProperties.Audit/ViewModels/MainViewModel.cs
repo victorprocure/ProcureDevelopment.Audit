@@ -26,7 +26,7 @@ namespace ProcureDevelopment.Audit.Wpf.ViewModels
         /// <summary>
         ///     The audit
         /// </summary>
-        private BrookfieldAudit audit;
+        private Audit audit;
 
         /// <summary>
         ///     The current view model
@@ -61,7 +61,7 @@ namespace ProcureDevelopment.Audit.Wpf.ViewModels
             this.ViewTitle = "Procure Development Audit";
 
             this.pastViewModels = new List<ViewModelBase>();
-            this.audit = new BrookfieldAudit();
+            this.audit = new Audit();
 
             this.ChangeView(new BuilderMtViewModel(this.audit));
         }

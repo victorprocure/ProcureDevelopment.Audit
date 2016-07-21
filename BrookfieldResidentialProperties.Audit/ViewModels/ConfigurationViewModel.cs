@@ -24,7 +24,7 @@ namespace ProcureDevelopment.Audit.Wpf.ViewModels
         /// <summary>
         ///     The audit this configuration will apply to
         /// </summary>
-        private BrookfieldAudit audit;
+        private Audit audit;
 
         /// <summary>
         ///     The audit date
@@ -55,7 +55,7 @@ namespace ProcureDevelopment.Audit.Wpf.ViewModels
         ///     Initializes a new instance of the <see cref="ConfigurationViewModel" /> class.
         /// </summary>
         /// <param name="audit">The audit.</param>
-        public ConfigurationViewModel(BrookfieldAudit audit)
+        public ConfigurationViewModel(Audit audit)
         {
             this.ViewTitle = "Configure Audit";
 

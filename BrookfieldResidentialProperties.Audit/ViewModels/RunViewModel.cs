@@ -22,7 +22,7 @@ namespace ProcureDevelopment.Audit.Wpf.ViewModels
         /// <summary>
         ///     The audit that will be run
         /// </summary>
-        private BrookfieldAudit audit;
+        private Audit audit;
 
         /// <summary>
         ///     The run tasks command
@@ -43,7 +43,7 @@ namespace ProcureDevelopment.Audit.Wpf.ViewModels
         ///     Initializes a new instance of the <see cref="RunViewModel" /> class.
         /// </summary>
         /// <param name="audit">The audit.</param>
-        public RunViewModel(BrookfieldAudit audit)
+        public RunViewModel(Audit audit)
         {
             this.ViewTitle = "Run Audit";
             this.audit = audit;

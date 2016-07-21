@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrookfieldResidentialProperties.Audit.Wpf", "BrookfieldResidentialProperties.Audit\BrookfieldResidentialProperties.Audit.Wpf.csproj", "{C82B74A3-F84F-450D-BF48-F28826674965}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcureDevelopment.Audit.Wpf", "BrookfieldResidentialProperties.Audit\ProcureDevelopment.Audit.Wpf.csproj", "{C82B74A3-F84F-450D-BF48-F28826674965}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrookfieldResidentialProperties.Audit.Services", "BrookfieldResidential.Audit.Services\BrookfieldResidentialProperties.Audit.Services.csproj", "{9621A195-348D-447B-931F-5BEE9FDA107A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcureDevelopment.Audit.Services", "BrookfieldResidential.Audit.Services\ProcureDevelopment.Audit.Services.csproj", "{9621A195-348D-447B-931F-5BEE9FDA107A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

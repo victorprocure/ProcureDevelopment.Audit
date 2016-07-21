@@ -24,7 +24,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodeAnalysisRuleSet>BrookfieldResidentialProperties.Audit.Wpf.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>ProcureDevelopment.Audit.Wpf.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,7 +34,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodeAnalysisRuleSet>BrookfieldResidentialProperties.Audit.Wpf.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>ProcureDevelopment.Audit.Wpf.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="FontAwesome.WPF, Version=4.5.0.37524, Culture=neutral, PublicKeyToken=0758b07a11a4f466, processorArchitecture=MSIL">
@@ -150,7 +150,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="BrookfieldResidentialProperties.Audit.Wpf.ruleset" />
+    <None Include="ProcureDevelopment.Audit.Wpf.ruleset" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -162,9 +162,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BrookfieldResidential.Audit.Services\BrookfieldResidentialProperties.Audit.Services.csproj">
+    <ProjectReference Include="..\BrookfieldResidential.Audit.Services\ProcureDevelopment.Audit.Services.csproj">
       <Project>{9621a195-348d-447b-931f-5bee9fda107a}</Project>
-      <Name>BrookfieldResidentialProperties.Audit.Services</Name>
+      <Name>ProcureDevelopment.Audit.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

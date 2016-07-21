@@ -22,7 +22,7 @@ namespace ProcureDevelopment.Audit.Wpf.ViewModels
         /// <summary>
         ///     The audit
         /// </summary>
-        private BrookfieldAudit audit;
+        private Audit audit;
 
         /// <summary>
         ///     The show data folder
@@ -33,7 +33,7 @@ namespace ProcureDevelopment.Audit.Wpf.ViewModels
         ///     Initializes a new instance of the <see cref="SageViewModel" /> class.
         /// </summary>
         /// <param name="audit">The audit.</param>
-        public SageViewModel(BrookfieldAudit audit) : base(new SageAuditTask())
+        public SageViewModel(Audit audit) : base(new SageAuditTask())
         {
             this.ViewTitle = "Sage 300 (Timberline)";
             this.audit = audit;

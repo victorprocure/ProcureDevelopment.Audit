@@ -20,7 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodeAnalysisRuleSet>BrookfieldResidentialProperties.Audit.Services.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>..\BrookfieldResidentialProperties.Audit\ProcureDevelopment.Audit.Wpf.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,7 +29,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodeAnalysisRuleSet>BrookfieldResidentialProperties.Audit.Services.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>..\BrookfieldResidentialProperties.Audit\ProcureDevelopment.Audit.Wpf.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
@@ -48,7 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configurations\AuditConfiguration.cs" />
-    <Compile Include="BrookfieldAudit.cs" />
+    <Compile Include="Audit.cs" />
     <Compile Include="Configurations\IAuditConfiguration.cs" />
     <Compile Include="Connections\BuilderMtConnection.cs" />
     <Compile Include="Connections\Connection.cs" />
@@ -68,7 +68,7 @@
     <Compile Include="Validation\SageConnectionValidator.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="BrookfieldResidentialProperties.Audit.Services.ruleset" />
+    <None Include="ProcureDevelopment.Audit.Services.ruleset" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
