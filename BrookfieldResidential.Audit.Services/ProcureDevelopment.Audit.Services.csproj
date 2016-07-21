@@ -7,8 +7,8 @@
     <ProjectGuid>{9621A195-348D-447B-931F-5BEE9FDA107A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BrookfieldResidentialProperties.Audit.Services</RootNamespace>
-    <AssemblyName>BrookfieldResidentialProperties.Audit.Services</AssemblyName>
+    <RootNamespace>ProcureDevelopment.Audit.Services</RootNamespace>
+    <AssemblyName>ProcureDevelopment.Audit.Services</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
