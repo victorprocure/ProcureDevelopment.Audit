@@ -162,7 +162,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BrookfieldResidential.Audit.Services\ProcureDevelopment.Audit.Services.csproj">
+    <ProjectReference Include="..\ProcureDevelopment.Audit.Services\ProcureDevelopment.Audit.Services.csproj">
       <Project>{9621a195-348d-447b-931f-5bee9fda107a}</Project>
       <Name>ProcureDevelopment.Audit.Services</Name>
     </ProjectReference>
